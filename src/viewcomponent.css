@@ -1,0 +1,67 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.card-description span {
+  margin-right: 4px;
+  padding: 4px 8px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.user-card-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.update-button,
+.delete-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+.update-button {
+  background-color: #007bff;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}

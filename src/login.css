@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#name {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  /* display: inline-block; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#phone {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#gender {
+  margin-top: 15 px;
+}
+#female {
+  margin-left: 5px;
+  display: inline;
+}
+#male {
+  margin-left: 8px;
+  display: inline;
+}
+#email{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+#category{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  position: relative;
+  padding: 20px;
+  margin: 120px auto;
+  background-color: #a3c1ad;
+  border-radius: 5px;
+  width: 50%;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#name {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.phone {
+  margin-top: 20px;
+}
+
+#gender {
+  margin-top: 15px;
+}
+
+#female {
+  margin-left: 5px;
+  display: inline;
+}
+
+#male {
+  margin-left: 8px;
+  display: inline;
+}
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #a3c1ad;
+  border-radius: 5px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-body {
+  padding: 50px;
+  /* background-color: #6C7C59; */
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.modal-footer {
+  padding: 10px 20px;
+}
+.modal-header h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 1000;
+  font-size: x-large;
+  color: #6c7c59;
+  margin-bottom: -4rem;
+}
+.modal-footer button {
+  margin-right: 10px;
+}
